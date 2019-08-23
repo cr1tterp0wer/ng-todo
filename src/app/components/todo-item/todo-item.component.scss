@@ -1,0 +1,26 @@
+
+.del{
+  background: red;
+  color:white;
+  font-weight:bold;
+  border:none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  float:right;
+}
+
+.todo{
+  background: #4f4f4f;
+  padding:10px;
+  border-bottom:1px #ccc dotted;
+  color:white;
+  font-family:Arial;
+}
+
+.is-completed{
+  text-decoration: line-through;
+  p{
+    text-decoration: inherit;
+  }
+}
